@@ -7,7 +7,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/index-images/mobile-header-img.jpg);
+    url(images/index-images/mobile-header-img.jpg);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/index-images/mobile-header-img@2x.jpg);
+      url(images/index-images/mobile-header-img@2x.jpg);
   }
 
   @media screen and (min-width: 480px) {
@@ -28,7 +28,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/index-images/mobile-header-img.jpg);
+      url(images/index-images/mobile-header-img.jpg);
     background-height: 400px;
     margin: 0px auto;
     height: 400px;
@@ -42,7 +42,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/index-images/mobile-header-img@2x.jpg);
+      url(images/index-images/mobile-header-img@2x.jpg);
   }
 
   @media screen and (min-width: 768px) {
@@ -50,7 +50,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/index-images/tablet-header-img.jpg);
+      url(images/index-images/tablet-header-img.jpg);
     margin: 0px auto;
     height: 400px;
     max-width: 768px;
@@ -63,7 +63,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/index-images/tablet-header-img@2x.jpg);
+      url(images/index-images/tablet-header-img@2x.jpg);
   }
 
   @media screen and (min-width: 1200px) {
@@ -71,7 +71,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/index-images/desktop-header-img.jpg);
+      url(images/index-images/desktop-header-img.jpg);
     margin: 0;
     height: 600px;
     max-width: 100%;
@@ -84,7 +84,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/index-images/desktop-header-img@2x.jpg);
+      url(images/index-images/desktop-header-img@2x.jpg);
   }
 
   &__heading {
