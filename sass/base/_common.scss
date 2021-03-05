@@ -1,0 +1,46 @@
+footer {
+  background-color: #2f303a;
+}
+
+address {
+  font-style: normal;
+}
+
+a,
+ul,
+ol {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+header {
+  height: 81px;
+  border-bottom: 1px solid #ececec;
+}
+
+.body {
+  color: var(--first-black-color);
+  font-family: var(--first-font-family), sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  background-color: var(--white-color);
+}

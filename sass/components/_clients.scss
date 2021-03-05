@@ -1,0 +1,118 @@
+.clients {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 45px;
+
+  @media screen and (min-width: 480px) {
+    max-width: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: none;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.clients__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.1785;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--first-black-color);
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
+}
+
+.clients__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media screen and (min-width: 768px) {
+    margin: -15px;
+  }
+}
+
+.clients__item {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin: 15px;
+  width: calc((100% - 4 * 15px) / 2);
+
+  transition: border-color 250ms var(--cubic);
+
+  &:focus,
+  &:hover,
+  &:active {
+    border-color: var(--blue-secondary-color);
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 226px;
+    height: 90px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+  }
+}
+
+.clients__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+
+  &:focus .clients__logo,
+  &:hover .clients__logo,
+  &:active .clients__logo {
+    fill: var(--blue-secondary-color);
+  }
+}
+
+.clients__logo {
+  fill: #afb1b8;
+
+  transition: fill 250ms var(--cubic);
+}
+
+.logo-1 {
+  width: 44.27px;
+  height: 49.23px;
+}
+
+.logo-2 {
+  width: 40px;
+  height: 50px;
+}
+
+.logo-3 {
+  width: 41px;
+  height: 42.6px;
+}
+
+.logo-4 {
+  width: 79.66px;
+  height: 42.02px;
+}
+
+.logo-5 {
+  width: 59px;
+  height: 47px;
+}
+
+.logo-6 {
+  width: 88.48px;
+  height: 45.44px;
+}

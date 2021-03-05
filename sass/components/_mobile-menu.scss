@@ -1,0 +1,120 @@
+.mobile-menu {
+  position: fixed;
+  overflow: scroll;
+  height: 100vh;
+  width: 100%;
+  max-width: 480px;
+  top: 0;
+  left: 50%;
+  opacity: 0;
+  background-color: var(--white-color);
+  transform: translateX(-50%) translateY(-120%);
+  transition: opacity 250ms var(--cubic);
+}
+.mobile-menu.is-open {
+  transform: translateX(-50%) translateY(0%);
+  opacity: 1;
+}
+
+.mobile-menu__navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+// .mobile-menu__pages-list { }
+
+.mobile-menu__pages-item {
+  margin-bottom: 32px;
+
+  // &:not(:last-child) {
+  //   margin-bottom: 32px;
+  // }
+}
+
+.mobile-menu__pages {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.175;
+  text-align: center;
+  letter-spacing: 0.02em;
+  padding-left: 25px;
+
+  &--active {
+    color: var(--blue-secondary-color);
+  }
+}
+
+// .mobile-menu__pages--active { }
+
+.mobile-menu__contacts-list {
+  margin-bottom: 60px;
+}
+
+.mobile-menu__contacts-item {
+  padding-left: 25px;
+
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
+.mobile-menu__contacts {
+  &--telephone {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.1764;
+    letter-spacing: 0.02em;
+    color: var(--blue-secondary-color);
+    padding-bottom: 32px;
+  }
+
+  &--mail {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.1666;
+    letter-spacing: 0.02em;
+    color: var(--secondary-black-color);
+    padding-bottom: 64px;
+  }
+}
+
+.mobile-menu__social-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 25px;
+  margin-bottom: 48px;
+}
+
+.mobile-menu__social-item {
+  &:not(:last-child) {
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    margin-right: 10px;
+  }
+}
+
+.mobile-menu__social-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2222;
+  letter-spacing: 0.02em;
+  color: var(--blue-secondary-color);
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .mobile-menu__social-link {
+    font-size: 12px;
+  }
+  .mobile-menu__contacts--telephone {
+    font-size: 30px;
+  }
+  .mobile-menu__pages {
+    font-size: 35px;
+  }
+}
