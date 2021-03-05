@@ -83,8 +83,9 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-start;
     width: 333px;
+    height: 16px;
     margin-left: auto;
     font-size: 14px;
     line-height: 1.1428;
@@ -168,6 +169,11 @@
     &:active .header-svg {
       fill: var(--blue-secondary-color);
     }
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
   }
 }
 
