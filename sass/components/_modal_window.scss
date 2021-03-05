@@ -33,8 +33,9 @@
   border-radius: 4px;
 
   @media screen and (min-width: 1200px) {
-    max-width: 518px;
+    max-width: 528px;
     overflow: hidden;
+    height: 582px;
   }
 }
 
@@ -50,7 +51,6 @@
 
   @media screen and (min-width: 1200px) {
     text-align: start;
-    letter-spacing: 0.025em;
     line-height: 1.15;
   }
 }
@@ -178,6 +178,10 @@
   border: solid 2px var(--first-black-color);
   border-radius: 2px;
   margin-right: 8px;
+
+  @media screen and (min-width: 1200px) {
+    cursor: pointer;
+  }
 }
 
 .modal__form-checkbox:checked
@@ -205,6 +209,10 @@
   letter-spacing: 0.06em;
   color: var(--white-color);
   margin: 0px auto;
+
+  @media screen and (min-width: 1200px) {
+    cursor: pointer;
+  }
 }
 
 .modal__button-close {
@@ -225,6 +233,10 @@
   &:focus,
   &:active {
     fill: var(--blue-secondary-color);
+  }
+
+  @media screen and (min-width: 1200px) {
+    cursor: pointer;
   }
 }
 
