@@ -622,7 +622,7 @@ header {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/index-images/tablet-header-img.jpg);
     margin: 0px auto;
     height: 400px;
-    max-width: 768px;
+    max-width: 100%;
   }
 }
 
@@ -650,6 +650,12 @@ header {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .hero {
+    max-width: 100%;
+  }
+}
+
 .hero__heading {
   display: block;
   font-family: "Roboto";
@@ -669,6 +675,13 @@ header {
 @media screen and (max-width: 376px) {
   .hero__heading {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero__heading {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -708,6 +721,12 @@ header {
 
 .hero__position {
   padding: 118px 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero__position {
+    max-width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
