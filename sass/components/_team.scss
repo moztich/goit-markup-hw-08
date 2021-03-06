@@ -17,6 +17,10 @@
   letter-spacing: 0.03em;
   color: var(--first-black-color);
   padding-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 50px;
+  }
 }
 
 .team__list {

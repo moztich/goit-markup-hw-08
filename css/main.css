@@ -491,6 +491,11 @@ header {
           justify-content: space-between;
 }
 
+.mobile-menu__position {
+  position: absolute;
+  bottom: 0;
+}
+
 .mobile-menu__pages-item {
   margin-bottom: 32px;
 }
@@ -1235,6 +1240,12 @@ header {
   padding-bottom: 30px;
 }
 
+@media screen and (min-width: 1200px) {
+  .team__heading {
+    padding-bottom: 50px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .team__list {
     display: -webkit-box;
@@ -1414,6 +1425,8 @@ header {
 @media screen and (min-width: 1200px) {
   .clients__heading {
     margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.1666;
   }
 }
 
@@ -1594,6 +1607,7 @@ header {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
+    margin-bottom: 0px;
   }
 }
 
