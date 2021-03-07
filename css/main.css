@@ -55,6 +55,10 @@ header {
   background-color: var(--white-color);
 }
 
+.menu-open {
+  overflow: hidden;
+}
+
 .container {
   width: 100%;
   padding: 0px 15px;
@@ -489,11 +493,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.mobile-menu__position {
-  position: absolute;
-  bottom: 0;
+  height: 95%;
 }
 
 .mobile-menu__pages-item {
